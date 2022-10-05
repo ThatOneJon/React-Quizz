@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+.indexHeadline{
+    color: #293264;
+    font-family: Karla;
+    font-size: 40px;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(344deg, rgba(255,250,209,1) 50%, rgba(245,247,251,1) 50%);
+}
+
+.startButton{
+    background-color: #4D5B9E;
+    color: white;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 15%;
+    font-size:20px;
+    font-weight: bold;
+    box-shadow: 0 2px 2px black;
+}
+
+.contentLanding{
+    text-align: center;
+}
+
+.descriptionLanding{
+    color: #293264;
+    font-weight:bold;
+    font-family: Karla;
+}
+
+.questionBlock{
+    padding: 30px;
+    height: 100%;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+.questionBlock > form > button {
+    background-color: #4D5B9E;
+    color: white;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 15%;
+    font-size:15px;
+    font-weight: bold;
+    box-shadow: 0 2px 2px black;
+    margin-top: 20px;
+    align-self: center;
+}
+.questionBlock > form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.questionText{
+    font-size: 19px;
+    font-family: Inter;
+    
+}
+
+.answerSelect {
+    border: none;
+    background: none;
+}
+.answerSelect option:hover {
+    background-color: #D6DBF5;
+    
+}
+
+/*.answerSelect option:focus {
+    background-color: #D6DBF5;
+    outline: none;
+    border: none;
+
+}
+*/
+.answerSelect:focus {
+    border: none;
+    background: none;  
+    outline: none;  
+    
+}
+
+.answerSelect option {
+    display: inline-block;
+    border-radius: 10px;
+    border:2px solid #4D5B9E;
+    margin-right: 10px;
+    background: #D6DBF5; 
+    font-family: Inter;
+    color: #4D5B9E;
+    font-weight: bold;
+    padding:3px;
+}
+
+.answerSelect::-moz-focus-inner {
+  border: 0;
+}
+
+.replayButton{
+     background-color: #4D5B9E;
+    color: white;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 15%;
+    font-size:15px;
+    font-weight: bold;
+    box-shadow: 0 2px 2px black;
+    margin-top: 20px;
+    align-self: center;   
+}
+
+.points {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrongA{
+    color: red;
+}
+
+.correctA{
+    color: green;
+}
+
+
+
